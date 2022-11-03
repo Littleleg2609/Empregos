@@ -31,6 +31,7 @@ public class Controllers {
      if(result.hasErrors()){
          return "EmpregoForm";
      }
+     empregoRepository.save(emprego);
      return "redirect:/";
     }
 }
