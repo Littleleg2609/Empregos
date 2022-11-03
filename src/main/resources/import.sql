@@ -1,0 +1,1 @@
+INSERT INTO tb_user(id,titulo,empresa,descricao) VALUES (1,'programador', 'avanade','backend');
